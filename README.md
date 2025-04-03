@@ -29,15 +29,20 @@ Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a fun�
 
 * CH AE = Chave A do lado esquerdo
 * CH BE = Chave B do lado esquerdo
-* CH AD = Chave C do lado direito
-* CH BD = Chave D do lado direito
+* CH AD = Chave A do lado direito
+* CH BD = Chave B do lado direito
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="300">
 
 
+Vamos juntar o controle das chaves A e B da Esquerda para um único pino e as chaves A e B da Direita para um único pino. Veja a imagem a seguir para entender como ficou.
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-03.jpg" width="300">
+
 ### (2.1) Transistores como Chave Liga/Desliga
 
-A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de corte, saturação e região ativa.
+A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de corte, saturação e região ativa
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="300">
 
