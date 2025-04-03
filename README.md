@@ -185,4 +185,7 @@ void loop() {
 
 ## (6) Propor um desafio valendo um bis
 
-Montar um circuito real e fazer o motor rodar para um lado e para o outro
+Valendo 1 Bis
+falar do duty cicle para controlar a velocidade do motor
+
+
