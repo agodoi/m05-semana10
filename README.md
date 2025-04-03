@@ -76,6 +76,20 @@ Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lado
 
 ## (4) Chips e Drivers para Ponte H
 
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="600">
+
+
+### (4.1) Ponte H feito na Raça:
+
+Esse projeto de Ponte H é feito de transistor BJT da família TIP, que são transistores mais poderesos que o BC548 e BC558.
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-03.png" width="600">
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-04.png" width="600">
+
+
+Para você descobrir quão poderoso é uma ponte H, consulte o [DATASHEET](https://www.st.com/content/ccc/resource/technical/document/datasheet/82/c2/f6/15/8b/d4/49/6a/CD00142950.pdf/files/CD00142950.pdf/jcr:content/translations/en.CD00142950.pdf) do transistor envolvido.
+
 mostrar as imagens já carregadas e explicar
 
 ## (5) Controle da Polarização
