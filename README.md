@@ -47,12 +47,19 @@ Vamos juntar uns ajustes:
 
 ### (2.1) Transistores como Chave Liga/Desliga
 
-A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de corte, saturação e região ativa
+A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de corte, saturação.
+
+Veja a imagem a seguir como fica o fluxo de corrente para cada valor de **INA** e **INB**.
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="600">
 
+|  INA          | INB | Fluxo | Situação               |
+|---------------------|---------------|----------------------|----------------------------|
+| 0    | 0    | ninugém conduz    | motor parado |
+| 0    | 1    | Q2 e Q3 conduzem  | carrinho vira para direita|
+| 1    | 0    | Q1 e Q4 conduzem  | carrinho vira para esquerda|
+| 1    | 1    | ninguém conduz    | motor parado |
 
-Considerando o seguinte controle dos pinos ESQUERDA e DIREITA
 
 Corrente de coletor/emissor vs tensão de base.
 
