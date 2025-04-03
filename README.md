@@ -53,15 +53,15 @@ Veja a imagem a seguir como fica o fluxo de corrente para cada valor de **INA** 
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="600">
 
-|  INA          | INB | Fluxo | Situação               |
-|---------------------|---------------|----------------------|----------------------------|
-| 0    | 0    | ninguém conduz    | motor parado |
-| 0    | 1    | Q2 e Q3 conduzem  | carrinho vira para direita|
-| 1    | 0    | Q1 e Q4 conduzem  | carrinho vira para esquerda|
-| 1    | 1    | ninguém conduz    | motor parado |
+| INA | INB | Fluxo | Situação |
+|-----|-----|-------|----------|
+| 0   | 0   | ninguém conduz   | motor parado |
+| 0   | 1   | Q2 e Q3 conduzem | motor vira para direita|
+| 1   | 0   | Q1 e Q4 conduzem | motor vira para esquerda|
+| 1   | 1   | ninguém conduz   | motor parado |
 
+Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lados vão se excitar e a d.d.p. no motor será ZERO, porque ambos lados terão a mesma tensão. E quando você corta o controle (nível ZERO em INA e INB) também nada acontece porque a d.d.p. continua ZERO nos terminais do motor.
 
-Corrente de coletor/emissor vs tensão de base.
 
 2. Topologia da Ponte H
 Estrutura com 4 transistores (Q1–Q4).
