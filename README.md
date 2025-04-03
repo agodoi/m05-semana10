@@ -63,7 +63,7 @@ Veja a imagem a seguir como fica o fluxo de corrente para cada valor dos pinos d
 Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lados vão se excitar e a d.d.p. no motor será ZERO, porque ambos lados terão a mesma tensão. E quando você corta o controle (nível ZERO em INA e INB) também nada acontece porque a d.d.p. continua ZERO nos terminais do motor.
 
 
-2. Situações do Transisto
+### (3) Situações do Transisto
 
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-cortado.png" width="500">
