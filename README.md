@@ -45,11 +45,11 @@ Vamos juntar uns ajustes:
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-06.png" width="600">
 
-### (2.1) Transistores como Chave Liga/Desliga
+### (2.1) Topologia da Ponte H
 
-A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de corte, saturação.
+A ideia da ponte H é atuar como uma chave liga/desliga e herdar o funcionamento do transistor nas suas regiões de saturação (liga) e corte (desliga).
 
-Veja a imagem a seguir como fica o fluxo de corrente para cada valor de **INA** e **INB**.
+Veja a imagem a seguir como fica o fluxo de corrente para cada valor dos pinos de controle **INA** e **INB**.
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="600">
 
@@ -63,7 +63,18 @@ Veja a imagem a seguir como fica o fluxo de corrente para cada valor de **INA** 
 Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lados vão se excitar e a d.d.p. no motor será ZERO, porque ambos lados terão a mesma tensão. E quando você corta o controle (nível ZERO em INA e INB) também nada acontece porque a d.d.p. continua ZERO nos terminais do motor.
 
 
-2. Topologia da Ponte H
+2. Situações do Transisto
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-cortado.png" width="500">
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-saturado.png" width="500">
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-ativo.png" width="500">
+
+
 Estrutura com 4 transistores (Q1–Q4).
 
 Caminhos de corrente para sentido horário e anti-horário do motor.
