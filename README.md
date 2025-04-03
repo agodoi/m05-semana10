@@ -1,6 +1,23 @@
-# m05-semana10
+# Atendimento do Professor
 
-. Revisão Rápida: Transistores como Chave
+## Terças e quintas. Professor de horário parcial. Nesses 2 dias, podem contar comigo!
+
+# Semama 10 - Ponte H Transistorizado
+
+## (1) Impactos em Projetos Futuros
+
+
+### Imagine quais circuitos você poderia desenvolver usando um transistor para adicionar no seu projeto. Aqui vão alguns exemplos:
+
+
+## (2) Ponte H por Dentro
+
+
+<img src="https://github.com/agodoi/m05-semana06/blob/main/imgs/ponte-01.jpeg" width="600">
+
+
+### (2.1) Transistores como Chave
+
 BJT: regiões de corte e saturação.
 
 MOSFET: modos de operação (cutoff, linear, saturação).
@@ -45,12 +62,7 @@ Comando de um motor DC simples via Arduino ou ESP32 com ponte H.
 
 Alternativa: H-bridge pronta (ex: L298N) e comparação com montagem discreta.
 
-6. Aplicações Reais
-Robótica móvel (controle de direção).
-
-Controle de atuadores lineares.
-
-Impressoras, drones, esteiras industriais.
+PRÁTICA - MONTAR O CIRCUITO NO TINKERCAD
 
 📌 Dicas Extras para Aula
 Mostre um exemplo de ponte H com transistores NPN e PNP, depois com MOSFETs N e P.
