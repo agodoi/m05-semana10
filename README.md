@@ -112,9 +112,14 @@ Para você descobrir quão poderoso é uma ponte H, consulte o [DATASHEET](https
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/L298.png" width="300">
 
-## (5) Controle da Polarização
+[DATASHEET](https://rocelec.widen.net/view/pdf/tjbkod1kk5/l293.pdf?t.download=true&u=5oefqw)
 
-fazer um código no tinkercad
+
+## (5) Simulando no Tinkecad
+
+Abrir o Tinkercad, montar o circuito abaixo e associar o código-fonte disponível. Dê o play e veja o controle de rotação sendo feito.
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/arduino-ponte-h.png" width="300">
 
 Esse código abaixo serve para simular um motor girando para direita e para esquerda em intervalos de tempo fixo.
 
