@@ -23,7 +23,19 @@
 #### Portões automáticos e cancelas
 
 ---
-## (2) Ponte H por Dentro
+
+## (2) Situações do Transisto: Cortado / Saturado / Ativo
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-cortado.png" width="500">
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-saturado.png" width="500">
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-ativo.png" width="500">
+
+## (3) Ponte H por Dentro
 
 Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a função dela é ter 4 chaves liga/desliga feitas de transistor.
 
@@ -45,7 +57,7 @@ Vamos juntar uns ajustes:
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-06.png" width="600">
 
-### (2.1) Topologia da Ponte H
+### (3.1) Topologia da Ponte H
 
 A ideia da ponte H é atuar como uma chave liga/desliga e herdar o funcionamento do transistor nas suas regiões de saturação (liga) e corte (desliga).
 
@@ -62,60 +74,12 @@ Veja a imagem a seguir como fica o fluxo de corrente para cada valor dos pinos d
 
 Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lados vão se excitar e a d.d.p. no motor será ZERO, porque ambos lados terão a mesma tensão. E quando você corta o controle (nível ZERO em INA e INB) também nada acontece porque a d.d.p. continua ZERO nos terminais do motor.
 
+## (4) Chips e Drivers para Ponte H
 
-### (3) Situações do Transisto
+mostrar as imagens já carregadas e explicar
 
+## (5) Controle da Polarização
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-cortado.png" width="500">
+fazer um código no tinkercad
 
-
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-saturado.png" width="500">
-
-
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-ativo.png" width="500">
-
-
-Estrutura com 4 transistores (Q1–Q4).
-
-Caminhos de corrente para sentido horário e anti-horário do motor.
-
-Explicação de funcionamento:
-
-Q1 e Q4 ligados → motor gira num sentido.
-
-Q2 e Q3 ligados → sentido oposto.
-
-Q1 e Q2 ou Q3 e Q4 juntos → curto (situação a ser evitada).
-
-3. Controle da Polarização
-Como acionar cada transistor com sinais digitais.
-
-Utilização de resistores de base/gate para controle.
-
-Importância do dead-time (tempo morto) para evitar curto.
-
-Exemplos de circuitos de polarização.
-
-4. Proteção e Eficiência
-Diodos de flyback para proteção contra corrente reversa (motor DC como carga indutiva).
-
-Considerações sobre perdas por comutação e aquecimento.
-
-Uso de drivers de gate/base.
-
-5. Simulação ou Demonstração Prática
-Montagem no Proteus, LTspice ou simulação online como Falstad/Wokwi.
-
-Comando de um motor DC simples via Arduino ou ESP32 com ponte H.
-
-Alternativa: H-bridge pronta (ex: L298N) e comparação com montagem discreta.
-
-PRÁTICA - MONTAR O CIRCUITO NO TINKERCAD
-
-📌 Dicas Extras para Aula
-Mostre um exemplo de ponte H com transistores NPN e PNP, depois com MOSFETs N e P.
-
-Traga um motorzinho DC pequeno para demonstração prática com Arduino e L298N.
-
-Use animações ou simulações interativas para mostrar o fluxo de corrente.
-
+## (6) Propor um desafio valendo um bis
