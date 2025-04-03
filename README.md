@@ -26,7 +26,7 @@
 ## (2) Ponte H por Dentro
 
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="600">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="300">
 
 
 ### (2.1) Transistores como Chave
