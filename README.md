@@ -55,7 +55,7 @@ Veja a imagem a seguir como fica o fluxo de corrente para cada valor de **INA** 
 
 |  INA          | INB | Fluxo | Situação               |
 |---------------------|---------------|----------------------|----------------------------|
-| 0    | 0    | ninugém conduz    | motor parado |
+| 0    | 0    | ninguém conduz    | motor parado |
 | 0    | 1    | Q2 e Q3 conduzem  | carrinho vira para direita|
 | 1    | 0    | Q1 e Q4 conduzem  | carrinho vira para esquerda|
 | 1    | 1    | ninguém conduz    | motor parado |
