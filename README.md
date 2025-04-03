@@ -92,7 +92,7 @@ Esse shield possui os seguintes pinos de controle:
 
 Essa ponte suporta 43A e controla apenas 1 motor
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/oonte-07.png" width="300">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-07.png" width="300">
 
 
 ### (4.1) Ponte H feito na Raça:
