@@ -80,7 +80,7 @@ Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lado
 
 A ponte H mais famosa do mundo do Arduino é a da foto abaixo.
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/L298_shield.png" width="400">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/L298_shield.png" width="300">
 
 Esse shield possui os seguintes pinos de controle:
 
@@ -95,7 +95,7 @@ Essa ponte suporta 43A e controla apenas 1 motor
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-07.png" width="300">
 
 
-### (4.1) Ponte H feito na Raça:
+### (4.3) Ponte H feito na Raça:
 
 Esse projeto de Ponte H é feito de transistor BJT da família TIP, que são transistores mais poderesos que o BC548 e BC558.
 
