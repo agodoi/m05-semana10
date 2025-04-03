@@ -43,7 +43,7 @@ Vamos juntar uns ajustes:
 * Colocar uma bateria no circuito; Veja a imagem a seguir para entender como ficou.
 
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-06.jpg" width="600">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-06.png" width="600">
 
 ### (2.1) Transistores como Chave Liga/Desliga
 
