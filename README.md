@@ -25,6 +25,8 @@
 ---
 ## (2) Ponte H por Dentro
 
+Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a função dela é ter 4 chaves liga/desliga feitas de transistor.
+
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="300">
 
