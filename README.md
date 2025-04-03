@@ -53,12 +53,12 @@ Veja a imagem a seguir como fica o fluxo de corrente para cada valor de **INA** 
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="600">
 
-| INA | INB | Fluxo | Situação | Cor do fluxo |
-|-----|-----|-------|----------| -------------|
-| 0   | 0   | ninguém conduz   | motor parado | nenhum |
-| 0   | 1   | Q1 e Q4 conduzem | motor vira para direita| vermelho |
-| 1   | 0   | Q2 e Q3 conduzem | motor vira para esquerda| azul |
-| 1   | 1   | ninguém conduz   | motor parado | nenhum |
+| INA | INB | Fluxo / Cor | Situação |
+|-----|-----|-------|----------|
+| 0   | 0   | ninguém conduz   | motor parado |
+| 0   | 1   | Q1 e Q4 conduzem / vermelho | motor vira para direita|
+| 1   | 0   | Q2 e Q3 conduzem / azul | motor vira para esquerda|
+| 1   | 1   | ninguém conduz   | motor parado |
 
 Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lados vão se excitar e a d.d.p. no motor será ZERO, porque ambos lados terão a mesma tensão. E quando você corta o controle (nível ZERO em INA e INB) também nada acontece porque a d.d.p. continua ZERO nos terminais do motor.
 
