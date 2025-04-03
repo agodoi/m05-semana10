@@ -107,8 +107,77 @@ Esse projeto de Ponte H é feito de transistor BJT da família TIP, que são tra
 Para você descobrir quão poderoso é uma ponte H, consulte o [DATASHEET](https://www.st.com/content/ccc/resource/technical/document/datasheet/82/c2/f6/15/8b/d4/49/6a/CD00142950.pdf/files/CD00142950.pdf/jcr:content/translations/en.CD00142950.pdf) do transistor envolvido.
 
 
+### (4.4) Como evolução, temos Ponte H em Chip
+
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/L298.png" width="300">
+
 ## (5) Controle da Polarização
 
 fazer um código no tinkercad
 
+Esse código abaixo serve para simular um motor girando para direita e para esquerda em intervalos de tempo fixo.
+
+```
+struct Roda {
+  bool active, dir;
+  uint8_t pin1;
+  uint8_t pin2;
+  Roda(const uint8_t& _pin1, const uint8_t& _pin2) : pin1(_pin1), pin2(_pin2) {}
+  void init() {
+    pinMode(pin1, OUTPUT);
+    pinMode(pin2, OUTPUT);
+  }
+  void stop() {
+    active = false;
+    digitalWrite(pin1, LOW);
+    digitalWrite(pin2, LOW);
+  }
+
+  void forward() {
+    active = true;
+    dir = true;
+    digitalWrite(pin1, HIGH);
+    digitalWrite(pin2, LOW);
+  }
+
+  void inverse() {
+    active = true;
+    dir = false;
+    digitalWrite(pin1, LOW);
+    digitalWrite(pin2, HIGH);
+  }
+};
+
+Roda rodaDireita(3, 4), rodaEsquerda(5, 4);
+
+void setup() {
+  Serial.begin(9600);
+  rodaDireita.init();
+  rodaEsquerda.init();
+  /// POWER SUPPLY (VCC) - analog
+  pinMode(5, OUTPUT);
+
+}
+float clock = 0.f;
+void loop() {
+  analogWrite(5, 500);
+  float t = millis() - clock;
+  if(t >= 0 && t < 1000) {
+  	rodaDireita.forward();
+  }
+  else if(t >= 1000 && t < 2000) {
+  	rodaDireita.inverse();
+  }
+  else if(t >= 2000 && t < 3000) {
+  	rodaDireita.stop();
+  }
+  else if(t >= 3000) {
+  	clock = millis();
+  }
+}
+```
+
 ## (6) Propor um desafio valendo um bis
+
+Montar um circuito real e fazer o motor rodar para um lado e para o outro
