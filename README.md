@@ -6,19 +6,21 @@
 
 ## (1) Impactos em Projetos Futuros
 
-* Controle de motores DC;
-  * Controle de velocidade via PWM (largura de pulso);
-  * Alteração de sentido de rotação (horário/anti-horário);
-    * Braços robóticos com movimento reversível;
-    * Fechadura eletrônica com motor DC;
-    * Cortinas automatizadas com motores reversíveis;
-    * Motores de retrovisores elétricos;
-    * Controle de servoacionamento ou gimbal (estabilização).
-    * Portões automáticos e cancelas.
+Controle de motores DC, especialmente no controle do sentido de rotação e controle de velocidade via PWM (largura de pulso).
 
+### Imagine quais circuitos você poderia desenvolver usando a ponte H. Aqui vão alguns exemplos:
 
+#### Braços robóticos com movimento reversível
 
-### Imagine quais circuitos você poderia desenvolver usando um transistor para adicionar no seu projeto. Aqui vão alguns exemplos:
+#### Fechadura eletrônica com motor DC
+
+#### Cortinas automatizadas com motores reversíveis;
+
+#### Motores de retrovisores elétricos;
+
+#### Controle de servoacionamento ou gimbal (estabilização).
+
+#### Portões automáticos e cancelas.
 
 
 ## (2) Ponte H por Dentro
