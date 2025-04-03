@@ -4,9 +4,9 @@
 
 # Semama 10 - Ponte H Transistorizado
 
-## (1) Impactos em Projetos Futuros
+## (1) Impacto em Projetos Futuros
 
-Controle de motores DC, especialmente no controle do sentido de rotação e controle de velocidade via PWM (largura de pulso).
+### Serve para o controle de motores DC, especialmente no controle do sentido de rotação e controle de velocidade via PWM (largura de pulso).
 
 ### Imagine quais circuitos você poderia desenvolver usando a ponte H. Aqui vão alguns exemplos:
 
