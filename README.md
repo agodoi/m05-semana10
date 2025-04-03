@@ -44,7 +44,7 @@ Vamos juntar os pinos de controle das chaves A e B da Esquerda para um único pi
 
 A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de corte, saturação e região ativa
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="300">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="800">
 
 
 Corrente de coletor/emissor vs tensão de base.
