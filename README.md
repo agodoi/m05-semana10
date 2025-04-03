@@ -82,7 +82,10 @@ A ponte H do mundo do Arduino mais famosa é a da foto abaixo.
 
 Esse shield possui os seguintes pinos de controle:
 
-[DATASHEETO](https://imgv2-1-f.scribdassets.com/img/document/231652629/original/a52085b9ea/1?v=1)
+[DATASHEETOS](https://imgv2-1-f.scribdassets.com/img/document/231652629/original/a52085b9ea/1?v=1)
+
+[![DATACHEETOS]([caminho/para/imagem.png](https://github.com/agodoi/m05-semana10/blob/main/imgs/cheetos.png))](https://imgv2-1-f.scribdassets.com/img/document/231652629/original/a52085b9ea/1?v=1)
+
 
 
 ### (4.1) Ponte H feito na Raça:
