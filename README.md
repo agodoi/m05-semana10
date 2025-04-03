@@ -119,7 +119,7 @@ Para você descobrir quão poderoso é uma ponte H, consulte o [DATASHEET](https
 
 Abrir o Tinkercad, montar o circuito abaixo e associar o código-fonte disponível. Dê o play e veja o controle de rotação sendo feito.
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/arduino-ponte-h.png" width="300">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/arduino-ponte-h.png" width="600">
 
 Esse código abaixo serve para simular um motor girando para direita e para esquerda em intervalos de tempo fixo.
 
