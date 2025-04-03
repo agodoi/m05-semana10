@@ -38,8 +38,8 @@ Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a fun�
 Vamos juntar uns ajustes:
 
 * As chaves da ESQUERDA serão um transistor NPN e PNP em série. O mesmo para as chaves da DIREITA;
-* Os pinos de controle das chaves A e B da Esquerda serão unificados para um único pino ESQUERDO e as chaves A e B da Direita para um único pino DIREITA;
-* Acrescentar os resistores de base;
+* Os pinos de controle das chaves A e B da Esquerda serão unificados para um único pino ESQUERDO e vamos apelidar de **INA** e as chaves A e B da Direita para um único pino DIREITA e vamos apelidá-lo de **INB**;
+* Acrescentar os resistores de base para cada transistor;
 * Colocar uma bateria no circuito; Veja a imagem a seguir para entender como ficou.
 
 
@@ -51,6 +51,8 @@ A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de 
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="600">
 
+
+Considerando o seguinte controle dos pinos ESQUERDA e DIREITA
 
 Corrente de coletor/emissor vs tensão de base.
 
