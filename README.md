@@ -35,7 +35,12 @@ Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a fun�
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="300">
 
 
-Vamos juntar os pinos de controle das chaves A e B da Esquerda para um único pino e as chaves A e B da Direita para um único pino, acrescentar os resistores de base e colocar uma bateria no circuito. Veja a imagem a seguir para entender como ficou.
+Vamos juntar uns ajustes:
+
+* As chaves da ESQUERDA serão um transistor NPN e PNP em série. O mesmo para as chaves da DIREITA;
+* Os pinos de controle das chaves A e B da Esquerda serão unificados para um único pino ESQUERDO e as chaves A e B da Direita para um único pino DIREITA;
+* Acrescentar os resistores de base;
+* Colocar uma bateria no circuito; Veja a imagem a seguir para entender como ficou.
 
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-05.jpg" width="600">
