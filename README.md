@@ -14,15 +14,15 @@ Controle de motores DC, especialmente no controle do sentido de rotação e cont
 
 #### Fechadura eletrônica com motor DC
 
-#### Cortinas automatizadas com motores reversíveis;
+#### Cortinas automatizadas com motores reversíveis
 
-#### Motores de retrovisores elétricos;
+#### Motores de retrovisores elétricos
 
-#### Controle de servoacionamento ou gimbal (estabilização).
+#### Controle de servoacionamento ou gimbal (estabilização)
 
-#### Portões automáticos e cancelas.
+#### Portões automáticos e cancelas
 
-
+---
 ## (2) Ponte H por Dentro
 
 
