@@ -29,8 +29,8 @@ Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a fun√
 
 CH AE = Chave A Esquerda
 CH BE = Chave B Esquerda
-CH CD = Chave C direita
-CH DD = Chave D direita
+CH AD = Chave C direita
+CH BD = Chave D direita
 
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="300">
