@@ -76,7 +76,9 @@ Note que se você excitar os dois lados do controle ao mesmo tempo, os dois lado
 
 ## (4) Chips e Drivers para Ponte H
 
-A ponte H do mundo do Arduino mais famosa é a da foto abaixo.
+### (4.1) Ponte L298
+
+A ponte H mais famosa do mundo do Arduino é a da foto abaixo.
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/L298_shield.png" width="400">
 
@@ -85,6 +87,12 @@ Esse shield possui os seguintes pinos de controle:
 <a href="https://imgv2-1-f.scribdassets.com/img/document/231652629/original/a52085b9ea/1?v=1">
   <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/cheetos.png" alt="Datacheetos" width="100"/>
 </a>
+
+### (4.2) Ponte BTS7960
+
+Essa ponte suporta 43A e controla apenas 1 motor
+
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/oonte-07.png" width="300">
 
 
 ### (4.1) Ponte H feito na Raça:
