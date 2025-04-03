@@ -27,22 +27,20 @@
 
 Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a função dela é ter 4 chaves liga/desliga feitas de transistor.
 
-CH AE = Chave A Esquerda
-CH BE = Chave B Esquerda
-CH AD = Chave C direita
-CH BD = Chave D direita
-
+* CH AE = Chave A do lado esquerdo
+* CH BE = Chave B do lado esquerdo
+* CH AD = Chave C do lado direito
+* CH BD = Chave D do lado direito
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="300">
 
 
-### (2.1) Transistores como Chave
+### (2.1) Transistores como Chave Liga/Desliga
 
-BJT: regiões de corte e saturação.
+A ideia da ponte H é herdar o funcionamento do transistor nas suas regiões de corte, saturação e região ativa.
 
-MOSFET: modos de operação (cutoff, linear, saturação).
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/transistor-h-bridge.gif" width="300">
 
-Conceito de polarização: base-emissor (BJT), porta-fonte (MOSFET).
 
 Corrente de coletor/emissor vs tensão de base.
 
