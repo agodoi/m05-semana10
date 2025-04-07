@@ -198,13 +198,14 @@ void loop() {
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/bis.jpg" width="300">
 
-Valendo 1 Bis
+#### Valendo 5 Bis
 
 O código acima não usa classe e métodos. Seu desafio é:
 
-1) Elabore um código com classe e método. Pode usar o GPETO para ganhar um pouco de tempo, desde que você entenda o que está acontecendo;
-2) Coloque um sensor ultrassônico no projeto e seu desafio é fazer um sensor ultrassom medir a distância na sua frente e quando a distância for menor que 10cm, a ponte H desacelera o motor via PWM. Não é o mesmo que freia o motor quando a distância for menor que 10cm e sim, desacelerar usando uma rotina de loop que faça o PWM diminuir do máximo para um mínimo como uma reta decrescente.
+**1)** Elabore um código com classe e método. Pode usar o GPETO para ganhar um pouco de tempo, desde que você entenda o que está acontecendo;
 
-falar do duty cicle para controlar a velocidade do motor
+**2)** Coloque um sensor ultrassônico no projeto e seu desafio é fazer um sensor ultrassom medir a distância da frente e quando a distância for menor que 10cm, a ponte H desacelera o motor via PWM. Não é o mesmo que freiar o motor quando a distância for menor que 10cm e sim, desacelerar usando uma rotina de loop que faça o PWM diminuir do máximo para um mínimo como uma reta decrescente.
+
+**3)** Entregável: me chama na sua bancada para me mostrar.
 
 
