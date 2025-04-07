@@ -124,61 +124,72 @@ Abrir o Tinkercad, montar o circuito abaixo e associar o código-fonte disponív
 Esse código abaixo serve para simular um motor girando para direita e para esquerda em intervalos de tempo fixo.
 
 ```
-struct Roda {
-  bool active, dir;
-  uint8_t pin1;
-  uint8_t pin2;
-  Roda(const uint8_t& _pin1, const uint8_t& _pin2) : pin1(_pin1), pin2(_pin2) {}
-  void init() {
-    pinMode(pin1, OUTPUT);
-    pinMode(pin2, OUTPUT);
-  }
-  void stop() {
-    active = false;
-    digitalWrite(pin1, LOW);
-    digitalWrite(pin2, LOW);
-  }
+// Pinos das rodas
+const uint8_t pin1Direita = 3;
+const uint8_t pin2Direita = 4;
 
-  void forward() {
-    active = true;
-    dir = true;
-    digitalWrite(pin1, HIGH);
-    digitalWrite(pin2, LOW);
-  }
+const uint8_t pin1Esquerda = 6; // Alterado
+const uint8_t pin2Esquerda = 7; // Alterado
 
-  void inverse() {
-    active = true;
-    dir = false;
-    digitalWrite(pin1, LOW);
-    digitalWrite(pin2, HIGH);
-  }
-};
+const uint8_t pinoAlimentacao = 5; // Alimentação
 
-Roda rodaDireita(3, 4), rodaEsquerda(5, 4);
+// Estado das rodas
+bool ativaDireita = false;
+bool direcaoDireita = true;
+
+bool ativaEsquerda = false;
+bool direcaoEsquerda = true;
+
+// Inicialização
+void initRoda(uint8_t pin1, uint8_t pin2) {
+  pinMode(pin1, OUTPUT);
+  pinMode(pin2, OUTPUT);
+}
+
+void pararRoda(uint8_t pin1, uint8_t pin2, bool& ativa) {
+  ativa = false;
+  digitalWrite(pin1, LOW);
+  digitalWrite(pin2, LOW);
+}
+
+void frenteRoda(uint8_t pin1, uint8_t pin2, bool& ativa, bool& direcao) {
+  ativa = true;
+  direcao = true;
+  digitalWrite(pin1, HIGH);
+  digitalWrite(pin2, LOW);
+}
+
+void trasRoda(uint8_t pin1, uint8_t pin2, bool& ativa, bool& direcao) {
+  ativa = true;
+  direcao = false;
+  digitalWrite(pin1, LOW);
+  digitalWrite(pin2, HIGH);
+}
+
+float clock = 0.f;
 
 void setup() {
   Serial.begin(9600);
-  rodaDireita.init();
-  rodaEsquerda.init();
-  /// POWER SUPPLY (VCC) - analog
-  pinMode(5, OUTPUT);
-
+  initRoda(pin1Direita, pin2Direita);
+  initRoda(pin1Esquerda, pin2Esquerda);
+  pinMode(pinoAlimentacao, OUTPUT); // Alimentação
 }
-float clock = 0.f;
+
 void loop() {
-  analogWrite(5, 500);
+  analogWrite(pinoAlimentacao, 500);
   float t = millis() - clock;
-  if(t >= 0 && t < 1000) {
-  	rodaDireita.forward();
+
+  if (t >= 0 && t < 1000) {
+    frenteRoda(pin1Direita, pin2Direita, ativaDireita, direcaoDireita);
   }
-  else if(t >= 1000 && t < 2000) {
-  	rodaDireita.inverse();
+  else if (t >= 1000 && t < 2000) {
+    trasRoda(pin1Direita, pin2Direita, ativaDireita, direcaoDireita);
   }
-  else if(t >= 2000 && t < 3000) {
-  	rodaDireita.stop();
+  else if (t >= 2000 && t < 3000) {
+    pararRoda(pin1Direita, pin2Direita, ativaDireita);
   }
-  else if(t >= 3000) {
-  	clock = millis();
+  else if (t >= 3000) {
+    clock = millis();
   }
 }
 ```
