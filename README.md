@@ -210,4 +210,68 @@ O código acima não usa classe e métodos. Seu desafio é:
 
 **3)** Entregável: me chama na sua bancada para me mostrar.
 
+Solução:
 
+```
+// Define os pinos de controle do motor ligados ao Arduino
+#define PINO_IN1 5  // Pino responsável pelo controle no sentido horário
+#define PINO_IN2 6  // Pino responsável pelo controle no sentido anti-horário
+
+// Pinos do sensor ultrassônico
+#define TRIG 9
+#define ECHO 10
+
+void setup() { 
+  pinMode(PINO_IN1, OUTPUT);
+  pinMode(PINO_IN2, OUTPUT);
+
+  pinMode(TRIG, OUTPUT);
+  pinMode(ECHO, INPUT);
+
+  Serial.begin(115200);
+}
+
+// Função para medir a distância com o sensor ultrassônico
+long medirDistancia() {
+  digitalWrite(TRIG, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG, LOW);
+
+  long duracao = pulseIn(ECHO, HIGH, 30000); // timeout de 30ms
+  long distancia = duracao * 0.034 / 2; // em cm
+  return distancia;
+}
+
+void loop() {
+  long distancia = medirDistancia();
+  Serial.print("Distância: ");
+  Serial.print(distancia);
+  Serial.println(" cm");
+
+  if (distancia >= 10) {
+    // Mantém o motor girando no sentido horário na velocidade máxima
+    analogWrite(PINO_IN1, 255);
+    analogWrite(PINO_IN2, 0);
+  } else {
+    // Desacelera rapidamente
+    for (int pwm = 255; pwm >= 0; pwm -= 5) {
+      analogWrite(PINO_IN1, pwm);
+      analogWrite(PINO_IN2, 0);
+      Serial.print("Desacelerando: ");
+      Serial.println(pwm);
+      delay(30);
+    }
+    // Mantém o motor parado enquanto a distância for menor que 10cm
+    while (medirDistancia() < 10) {
+      analogWrite(PINO_IN1, 0);
+      analogWrite(PINO_IN2, 0);
+      Serial.println("Objeto próximo. Motor parado.");
+      delay(100);
+    }
+  }
+
+  delay(100);
+}
+```
