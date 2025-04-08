@@ -194,7 +194,7 @@ void loop() {
 }
 ```
 
-## (6) Propor um desafio valendo BIS
+## (6) Propor um desafio valendo BIS [montar o projeto abaixo para 1 motor]
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/bis.jpg" width="300">
 
