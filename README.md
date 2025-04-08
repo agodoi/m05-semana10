@@ -130,11 +130,8 @@ Esse código abaixo serve para simular um motor girando para direita e para esqu
 // Pinos das rodas
 const uint8_t pin1Direita = 3;
 const uint8_t pin2Direita = 4;
-
-const uint8_t pin1Esquerda = 6; // Alterado
-const uint8_t pin2Esquerda = 7; // Alterado
-
-const uint8_t pinoAlimentacao = 5; // Alimentação
+const uint8_t pin1Esquerda = 5;
+const uint8_t pin2Esquerda = 4;
 
 // Estado das rodas
 bool ativaDireita = false;
@@ -175,11 +172,11 @@ void setup() {
   Serial.begin(9600);
   initRoda(pin1Direita, pin2Direita);
   initRoda(pin1Esquerda, pin2Esquerda);
-  pinMode(pinoAlimentacao, OUTPUT); // Alimentação
+  pinMode(5, OUTPUT); // Alimentação
 }
 
 void loop() {
-  analogWrite(pinoAlimentacao, 500);
+  analogWrite(5, 500);
   float t = millis() - clock;
 
   if (t >= 0 && t < 1000) {
