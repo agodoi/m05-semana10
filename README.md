@@ -2,7 +2,7 @@
 
 ## Terças e quintas. Professor de horário parcial. Nesses 2 dias, podem contar comigo!
 
-# Semama 10 - Ponte H Transistorizado
+# Semama 10 - Ponte H Transistorizada
 
 ## (1) Impacto em Projetos Futuros
 
