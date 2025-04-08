@@ -98,7 +98,7 @@ Essa ponte suporta 43A e controla apenas 1 motor
 
 ### (4.3) Ponte H feito na Raça:
 
-Esse projeto de Ponte H é feito de transistor BJT da família TIP, que são transistores mais poderesos que o BC548 e BC558.
+Esse projeto de Ponte H é feito de transistor BJT da família TIP, que são transistores mais poderesos que o BC548 e BC558, os **Tips 127** e **Tip 122**.
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-04.png" width="600">
 
