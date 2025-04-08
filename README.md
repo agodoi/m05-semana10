@@ -47,7 +47,7 @@ Observe o circuito a seguir. A Ponte H literalmente tem a forma de um H e a fun�
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-01.jpg" width="300">
 
 
-Vamos juntar uns ajustes:
+Aprimorando conceitos do circuito:
 
 * As chaves da ESQUERDA serão um transistor NPN e PNP em série. O mesmo para as chaves da DIREITA;
 * Os pinos de controle das chaves A e B da Esquerda serão unificados para um único pino ESQUERDO e vamos apelidar de **INA** e as chaves A e B da Direita para um único pino DIREITA e vamos apelidá-lo de **INB**;
