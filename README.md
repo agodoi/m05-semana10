@@ -202,7 +202,7 @@ void loop() {
 
 O código acima não usa classe e métodos. Seu desafio é:
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/circuitodesafio.jpg" width="300">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/circuitodesafio.png" width="300">
 
 **1)** Elabore um código com classe e método. Pode usar o GPETO para ganhar um pouco de tempo, desde que você entenda o que está acontecendo;
 
