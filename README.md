@@ -214,8 +214,8 @@ Solução:
 
 ```
 // Define os pinos de controle do motor ligados ao Arduino
-#define PINO_IN1 5  // Pino responsável pelo controle no sentido horário
-#define PINO_IN2 6  // Pino responsável pelo controle no sentido anti-horário
+#define PINO_IN1 2  // Pino responsável pelo controle no sentido horário
+#define PINO_IN2 3  // Pino responsável pelo controle no sentido anti-horário
 
 // Pinos do sensor ultrassônico
 #define TRIG 9
