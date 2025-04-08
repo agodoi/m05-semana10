@@ -52,7 +52,8 @@ Aprimorando conceitos do circuito:
 * As chaves da ESQUERDA serão um par de transistores **NPN** e **PNP** em série. O mesmo para as chaves da DIREITA;
 * Os pinos de controle das chaves A e B da Esquerda serão unificados para um único pino ESQUERDO e vamos apelidar de **INA** e as chaves A e B da Direita para um único pino DIREITA e vamos apelidá-lo de **INB**;
 * Acrescentar os resistores de base para cada transistor;
-* Colocar uma bateria no circuito; Veja a imagem a seguir para entender como ficou.
+* Colocar uma bateria no circuito;
+* Veja a imagem a seguir para entender como ficou.
 
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/ponte-06.png" width="600">
