@@ -10,17 +10,17 @@
 
 ### Imagine quais circuitos você poderia desenvolver usando a ponte H. Aqui vão alguns exemplos:
 
-#### Braços robóticos com movimento reversível
+#### - Braços robóticos com movimento reversível
 
-#### Fechadura eletrônica com motor DC
+#### - Fechadura eletrônica com motor DC
 
-#### Cortinas automatizadas com motores reversíveis
+#### - Cortinas automatizadas com motores reversíveis
 
-#### Motores de retrovisores elétricos
+#### - Motores de retrovisores elétricos
 
-#### Controle de servoacionamento ou gimbal (estabilização)
+#### - Controle de servoacionamento ou gimbal (estabilização)
 
-#### Portões automáticos e cancelas
+#### - Portões automáticos e cancelas
 
 ---
 
