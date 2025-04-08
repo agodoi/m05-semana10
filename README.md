@@ -122,7 +122,7 @@ Abrir o Tinkercad, montar o circuito abaixo e associar o código-fonte disponív
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/arduino-ponte-h.png" width="800">
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/pinagemL298v2.png" width="600">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/pinagemL298v2.png" width="300">
 
 Esse código abaixo serve para simular um motor girando para direita e para esquerda em intervalos de tempo fixo.
 
