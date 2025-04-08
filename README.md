@@ -120,7 +120,7 @@ Para você descobrir quão poderoso é uma ponte H, consulte o [DATASHEET](https
 
 Abrir o Tinkercad, montar o circuito abaixo e associar o código-fonte disponível. Dê o play e veja o controle de rotação sendo feito.
 
-<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/arduino-ponte-h.png" width="800">
+<img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/CircuitoL298.png" width="800">
 
 <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/pinagemL298v2.png" width="150"> <img src="https://github.com/agodoi/m05-semana10/blob/main/imgs/pinagemL298v2-descricao.png" width="800">
 
